@@ -9,5 +9,7 @@ RUN apk add --update && \
     pip3.6 install sphinxcontrib-nwdiag && \
     pip3.6 install -e "git+git://github.com/proycon/sphinx-to-github.git#egg=sphinx-to-github"
 
-ENTRYPOINT ["/bin/sh"]
+COPY entrypoint.sh /entrypoint.sh
+
+ENTRYPOINT ["/entrypoint.sh"]
 
