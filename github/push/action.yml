@@ -25,4 +25,4 @@ inputs:
     default: '.'
 runs:
   using: 'docker'
-  image: 'mikiyaf/github-push'
+  image: 'mikiyaf/github-push:0.0.1'
