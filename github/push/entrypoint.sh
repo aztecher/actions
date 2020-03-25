@@ -3,6 +3,7 @@
 ls -lat
 git --help
 env
+cat /entrypoint.sh
 
 EXEC=$1
 if [ "$EXEC" = "test" ]; then
