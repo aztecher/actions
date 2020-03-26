@@ -1,11 +1,6 @@
 #!/bin/sh
 
-ls -lat
-git --help
-env
-
-EXEC=$1
-if [ "$EXEC" = "test" ]; then
+if [ "$INPUT_TEST" = "test" ]; then
   echo "test"
   exit 0
 fi
