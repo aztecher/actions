@@ -3,7 +3,7 @@ description: 'Push local changes to Github repository'
 author: 'mikiyaf'
 inputs:
   user:
-    description: 'Github user name. Default is ${{ GITHUB_ACTOR }}'
+    description: 'Github user name. Default is ${GITHUB_ACTOR}'
     required: false
   email:
     description: 'Github emal.'
