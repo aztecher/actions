@@ -29,6 +29,6 @@ inputs:
     default: ''
 runs:
   using: 'docker'
-  image: 'mikiyaf/github-push:0.0.5'
+  image: 'mikiyaf/github-push:0.0.6'
   args:
     - ${{ inputs.test }}
