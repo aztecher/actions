@@ -14,6 +14,13 @@ jobs:
         uses: ./escritorio/
         with:
           echo-output: 'Test escritorio action'
+      - name: init2commit action
+        uses: ./github/init2commit
+        with:
+          email: 'mikiyaf.business@gmail.com'
+          directory: '.'
+          branch: 'master'
+          test: 'test'
       - name: push action
         uses: ./github/push
         with:
